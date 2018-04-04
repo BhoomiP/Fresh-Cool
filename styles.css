@@ -1,0 +1,464 @@
+/*  Nisarg Rana
+    04/11/2016/
+	styles.css */
+body{
+        /*background:url(../images/snowflakes-3.gif) repeat fixed;*/
+        background:url(../images/tree_GIF.gif) repeat fixed;
+        /*background:url(../images/snowflakes-2.gif) repeat fixed;*/
+        margin:0;
+	}
+	img
+    {
+		max-width: 100%;
+	}
+	#container
+    {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+	}
+	header
+    {
+			text-align: center;
+	}
+	nav
+    {
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 1.25em;
+			font-weight: bold;
+			text-align: center;
+			margin-top:-1.5em;
+	}
+	main
+    {
+			display: block;
+			font-family: Verdana, Arial, Sans-serif;
+			font-size: 1em;
+			margin-top: 0.5em;
+			padding: 1em;
+			border-radius: 2em 0 2em 0;
+			/*background-color: #FFFFFF;*/
+            opacity:0.85;
+	}
+	footer
+    {
+				font-size: .70em;
+				text-align: center;
+				margin-bottom: 2em;
+                color:#ffffff;
+	}
+    .equip
+    {
+			display: none;
+	}
+	nav ul
+    {
+			padding: 0;
+			margin-bottom: 0.5em;
+			margin-top: 2em;
+	}
+	nav li
+    {
+			background-color: #293955;
+			border-radius: 2em;
+			list-style-type: none;
+			margin : 0.3em;
+			padding: 0.4em;
+	}
+	nav li a
+    {
+			color: #ffffff;
+			text-decoration: none;
+	}
+	.mobile
+    {
+			display: inline;
+	}
+	.desktop
+    {
+			display: none;
+	}
+	.tablet
+    {
+			display: none;
+	}
+	main a
+    {
+        background-color:#9d9d93;
+        border-radius:1em;
+        color:#ffffff;
+        font-weight:bold;
+        padding:0.5em;
+        text-decoration:none;
+	}
+    footer a
+    {
+        color:#ffffff;
+        text-decoration:none;
+    }
+    .number
+    {
+        background-color:transparent;
+         color:#1d1d1c;
+         padding:0;
+    }
+    .contact
+    {
+        background-color:transparent;
+        color:#1d1d1c;
+        padding:0;
+        text-decoration:underline;
+    }
+    aside
+    {
+        font-style:italic;
+    }
+    header img
+    {
+        width:30%;
+    }
+    #banner img
+    {
+        width:100%;
+        max-height:500px;
+    }
+    main h1
+    {
+        font-family:Gabriola;
+        color:#000000;
+        font-size:50px;
+        margin-top:5px;
+        margin-bottom:0;
+        text-align:center;
+    }
+    aside
+    {
+        background-color:#ffffff;
+        border-radius:5em 5em 5em 5em;
+        box-shadow:1em 1em 1em #4c4f4d;
+        padding:1.5em;
+        margin:1em;
+    }
+
+	/* Media query for Tablet layout targets screen size with a minimum width of 660px. */
+	@media only screen and (min-width: 660px){
+	/* style specifies a horizontal display for navigation links */
+	nav li
+    {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right:1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+		white-space: nowrap;
+        background-color: #293955;
+		border-radius: 2em;
+	}
+	nav li a
+    {
+			color: #ffffff;
+			text-decoration: none;
+	}
+	/* style specifies clear and top margin properties for the main element */
+	main
+    {
+		clear: left;
+		margin-top: -0.3em;
+        border-radius:0;
+        overflow:auto;
+	}
+	
+	/* style specifies to hide the mobile class */
+	.mobile
+    {
+		display: none;
+	}
+	
+	/* style specifies to display the desktop class */
+	.desktop
+    {
+		display: inline;
+	}
+	
+	/* style specifies a display, float, and padding for the equip class */
+	.equip
+    {
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+	}
+	
+	/* style specifies a display, list style position, and bottom margin for the items class */
+	.items
+    {
+		display: block;
+		list-style-position: inside;
+	}
+	
+	/* style specifies to display the tablet class */
+	.tablet
+    {
+		display: block;
+        margin-top:-3em;
+        margin-bottom:-1em;
+	}
+	section
+    {
+        padding-bottom:3em;
+	}
+    section h1
+     {
+         text-align:left;
+         color:#1d1d1c;
+     }
+     section a
+     {
+         background-color:transparent;
+         color:#1d1d1c;
+         font-weight:normal;
+         padding:0;
+         text-decoration:underline;
+     }
+	/* style specifies a font weight and top margin for description list items */
+	dt
+    {
+		font-weight: bold;
+		margin-top: 0.7em;
+	}
+    h1
+    {
+        text-align:center;
+    }
+    figure img
+    {
+        background-color:#1d1d1c;
+        display:inline;
+        height:8em;
+        width:28%;
+        margin:1%;
+        padding:1%;
+    }
+    figure a
+    {
+        background-color:transparent;
+        padding:0;
+        text-decoration:none;
+    }
+    .contact
+     {
+         background-color:transparent;
+         color:#1d1d1c;
+         padding:0;
+         text-decoration:underline;
+     }
+    article
+    {
+        background-color:#293955;
+        float:left;
+        margin:0.5%;
+        padding:0.5%;
+        text-align:center;
+        width:31%;
+    }
+    main article img
+    {
+        border:solid 0.1em #1d1d1c;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    main article p
+    {
+        color:#ffffff;
+        margin-top:2%;
+        padding:1%;
+        text-align:left;
+    }
+    main article ul
+    {
+        text-align:left;
+    }
+    main article h2
+    {
+        color:#ffffff;
+    }
+    main article ul li
+    {
+        color:#ccccff;
+    }
+     header img
+    {
+        width:30%;
+    }
+    aside
+    {
+        background-color:#ffffff;
+        border-radius:5em 5em 5em 5em;
+        box-shadow:1em 1em 1em #4c4f4d;
+        padding:1.5em;
+        margin:1em;
+    }
+
+}
+	/* Media query for Desktop layout targets screen size with a minimum width of 830px. */
+	@media only screen and (min-width: 830px){
+    body
+    {
+        /*background-color:#ffffff;*/
+        font-family: Verdana, Arial, Sans-serif;
+	}
+    h2, p
+        {
+            color:#ffffff;
+        }
+	#container
+    {
+        background-color:rgba(255, 255, 255, 0.50);
+    }
+	nav ul
+    {
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+	nav li
+    {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+        background-color: transparent;
+	}
+	nav li a
+    {
+		display: inline-block;
+		padding: 0.7em;
+        font-size:22px;
+	}
+    nav li a:link
+    {
+		color:#293955;
+	}
+	
+	nav li a:visited
+    {
+		color: #293955;
+	}
+	
+	nav li a:hover
+    {
+		color: #9d9d93;
+		font-style: italic;
+	}
+    nav li a:active
+    {
+        color:#6600cc;
+    }
+    main
+    {
+		/*background-color:#ffffff;*/
+        width:85%;
+        margin:0 auto 0 auto;
+	}
+    main p
+    {
+		color:#000000;
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+	}
+    /*body
+    {
+        background-color:#ffffff;
+    }*/
+    section
+    {
+        color:#ffffff;
+        margin-left:1em;
+        padding-bottom:5em;
+	}
+    section a
+    {
+        color:#ffffff;
+    }
+    section p
+    {
+        margin-left:0;
+    }
+    section h1
+    {
+        color:#ffffff;
+        margin-top:0;
+    }
+    header
+    {
+        text-align:left;
+    }
+    nav
+    {
+        float:right;
+        margin-top:-7em;
+        margin-right:3em;
+        margin-bottom:0;
+        width:65%;
+	}
+    figure img
+    {
+        height:15em;
+        opacity:0.7;
+    }
+    figure img:hover
+    {
+        opacity:1;
+    }
+    h1
+    {
+        color:#ffffff;
+    }
+    footer
+    {
+        background-color:#2a2a2a;
+        margin-top:-0.2em;
+        padding:2em;
+    }
+    main h2
+    {
+        color:#ffffff;
+    }
+    .contact
+    {
+        color:#ffffff;
+    }
+    header img
+    {
+        width:12%;
+        padding-left:20px;
+    }
+    .abt
+    {
+        background-color:#293955;
+        border-radius:25%;
+        padding:25px;
+    }
+    
+}
+	
+	/* style specifies border, box shadow, and margins for the main element */
+	
+	
+	/* style specifies left and right padding for paragraph elements within the main element */
+	
+	
+	/* style specifies a bottom margin for the items class */
+	.items
+    {
+		margin-bottom: 6em;
+	}
+	
+	/* style rules for pseudo-classes */
+	
+	
+	
+	
+		

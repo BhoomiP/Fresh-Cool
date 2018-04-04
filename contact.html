@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- Bhoomika Patel
+	25/11/2016 -->
+<html lang="en">
+	<head>
+        <link href="css/styles.css" rel="stylesheet" />
+		<link href="css/tablecss.css" rel="stylesheet" />
+		<title>Fresh&Cool</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script/JavaScript.js"></script>
+        <script>
+        function message() {
+            alert("Thank you for complete this form.");
+        }
+        </script>	
+	</head>
+	<body>
+        <header>
+            <div>
+                <img src="images/bm_logo3.JPG" alt="logo" width="100%" />
+            </div>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="product.html">Product List</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="email.html">Join Email</a></li>
+                </ul>
+            </nav>
+	    
+		<div id="main">
+            <main class="container">
+                <h1 style="text-align:center;margin-bottom:20px;">Contact Us</h1>
+                <!--<h2class="bhd">
+                    Through innovative and reliable products, services and talented people, a responsible
+                    approach to business and global citizenship, and collaboration with our partners and customers, Fresh and
+                    Cool is taking the world in imaginative new directions.
+                </h2>-->
+                <h2 class="add">Well help you find the right solution for your business, please complete the form below.</h2>
+                <div class="ifrm">
+                    <div class="contactimg">
+                        <img src="images/contact.png" />
+                    </div>
+                    <div class="contactform">
+                        <form>
+                            <label for="fName">First Name:</label>
+                            <input type="text" name="fName" id="fName" class="input" placeholder="First Name" required autofocus>
+
+                            <label for="lName">Last Name:</label>
+                            <input type="text" name="lName" id="lName" class="input" placeholder="Last Name">
+
+                            <label for="gender">Gender:</label>
+                            <input type="radio" name="gender" value="male" id="male" checked> Male
+                            <input type="radio" name="gender" value="female" id="female" class="svc"> Female
+                            <br>
+
+                            <label for="inputdob">Date Of Birth</label>
+                            <input id="startdate" name="startdate" min="1970-01-01" max="2025-01-01" type="date"><br>
+
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" class="input" placeholder="example@domain.com">
+
+                            <label for="url">URL: </label>
+                            <input type="url" name="url" required placeholder="www.domain.com"><br>
+
+                            <label for="Phone">Phone Number:</label>
+                            <input type="tel" name="Phone" id="Phone" class="input" placeholder="+1(xxx)xxx-xxxx">
+
+                            <label for="reference">Refrigerator Types:</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">French Door refrigerators</option>
+                                <option value="friend">side-by-side Refrigerators</option>
+                                <option value="google">Bottom Freezer Refrigerators</option>
+                                <option value="social">Top Freezer Refrigerators</option>
+                                <option value="ad1">Counter depth Refrigerator</option>
+                                <option value="ad2">Compact Fridges</option>
+                                <option value="ad3">Refrigerator Drawers</option>
+                                <option value="ad4">Wine and Drinks cooler</option>
+                                <option value="ad5">Freezerless Refrigerators</option>
+                                <option value="ad6">Mini Refrigerators</option>
+                            </select>
+
+                            <p>Please indicate type of services needed:</p>
+                            <ul>
+                                <li><input type="checkbox" name="ns" id="ns" value="ns" class="chkbx">Free delivery
+                                <li>
+                                <li><input type="checkbox" name="ns1" id="ns" value="ns1" class="chkbx">Volume Discounts
+                                <li>
+                                <li><input type="checkbox" name="ns2" id="ns2" value="ns2" class="chkbx">Return and replace policy
+                                <li>
+                                <li><input type="checkbox" name="ns3" id="ns3" value="ns3" class="chkbx">Large selection
+                                <li>
+                            </ul>
+
+                            <label for="questions">Questions:</label>
+                            <textarea name="questions" id="questions" rows="4" cols="25" placeholder="Type your questions here..."></textarea>
+
+                            <input type="submit" value="SUBMIT" class="btn" onclick="message()" />
+                            <input type="reset" value="RESET" class="btn" />
+                        </form>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+		
+		<footer>
+            <div class="copyright">
+                &copy; Copyright 2016. All Rights Reserved.<br />
+                <a href="mailto:info@fresh&cool.net">Request information</a><br />
+                Bhoomika Patel&nbsp; &nbsp;c0690651
+            </div>
+            <div class="icons">
+                <a href="http://www.facebook.com"><img src="images/icons/facebook_circle.png" /></a>
+                <a href="http://www.twitter.com"><img src="images/icons/twitter_circle.png" /></a>
+                <a href="http://www.youtube.com"><img src="images/icons/youtube_circle.png" /></a>
+            </div>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+

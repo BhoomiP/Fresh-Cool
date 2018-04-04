@@ -1,0 +1,491 @@
+/* Style sheet created by: Bhoomika Patel, 25/11/2016  */
+	
+	/* style specifies a gradient for the body element */
+body{
+		background-attachment: fixed;
+		margin:0;
+		font-family:Calibri;
+		font-size:20px;
+		padding-bottom:20px;
+		padding-top:10px;
+	}
+	
+	/* style to create a fluid image */
+	header
+    {
+        width:80%;
+        margin:0 auto 0 auto;
+	}
+	/*header img{
+		width: 100%;
+	}*/
+	.abth1
+	{
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-size:60px;
+		margin:0 auto 0 auto;
+		width:80%;
+		padding-bottom:10px;
+		text-align:center;
+		font-family:'Brush Script MT','Colonna MT';
+		color:#d01377;
+	}
+	/* style for the header specifies top margin, background color, rounded corners, and center-aligns content */
+	header{
+			margin-top: 0.2em;
+			margin-bottom: 10px;
+	}
+	h1
+	{
+		font-size:200%;
+		font-family:'Raider Crusader 3D','Brush Script MT';
+		color:#00285a;
+		padding-left:45px;
+		margin-top:0;
+		margin-bottom:0;
+	}
+
+header h2
+{
+    padding-top:0;
+    color:#93228d;
+    font-family:'Brush Script MT';
+    font-size:40px;
+	
+}
+.bhd{
+	color: #6600cc; font-family: 'Brush Script MT','Colonna MT'; text-align: center; font-size: 40px;
+}
+.add{
+	font-family: "Times New Roman";
+	font-size: 25px;
+}
+	/* style for the nav specifies text properties */
+	nav{
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 1.25em;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom:30px;
+	}
+	#banner img
+    {
+        width:100%;
+        max-height:500px;
+    }
+
+
+	.first
+	{
+		padding-top:15px;
+		text-indent:30px;
+	}
+	/* style for the footer specifies font size, text alignment, and top margin */
+	footer{
+        background-color:#00285a;
+        color:#ffffff;
+		font-size: .70em;
+		text-align: center;
+        padding:5px;
+        width:96%;
+        overflow:auto;
+	}
+    footer a
+    {
+        color:#ffffff;
+    }
+
+	/* style rule specifies to not display the equip class */
+	.equip{
+			display: none;
+	}
+	
+	/* style specifies padding and margin for unordered list */
+	nav ul{
+			padding: 0;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+	}
+	
+	/* style for nav li specifies the background color, rounded corners, removes bullet styles, and applies margins and padding for list items within the navigation */
+	nav li{
+			background-color: #00285a;
+			border-radius: 2em;
+			list-style-type: none;
+			margin : 0.3em;
+			padding: 0.4em;
+	}
+	
+	/* style changes navigation link text color to white and removes underline */
+	nav li a{
+			color: #FFFFFF;
+			text-decoration: none;
+	}
+	
+	/* Style displays the mobile class */
+	.mobile{
+			display: inline;
+	}
+	
+	/* style hides the desktop class */
+	.desktop{
+			display: inline;
+		}
+	
+	/* style hides the tablet class */
+	.tablet{
+			display: none;
+	}
+    .sdimg
+    {
+        width:100%;
+        float:left;
+        padding:5px;
+	}
+    .sdpara
+    {
+        width:100%;
+        float:right;
+        background-color:#ffffff;
+        /*border-radius:10px;*/
+        box-shadow: 10px -10px 8px #cccccc;
+        margin:-5px;
+    }
+    .sdimg2
+    {
+        float:left;
+    }
+    .sdpara2
+    {
+        float:right;
+    }
+	 #sec1
+    {
+        text-align:center;
+    }
+    #sec1, #sec2, #sec3, #sec4 {
+    padding: 10px;
+    }
+    #sec5
+    {
+        padding-left:10px;
+        padding-right:10px;
+    }
+	#whoweare
+    {
+        text-align:center;
+	}
+    .content
+    {
+        width:95%;
+        margin:0 auto 0 auto;
+    }
+    .copyright
+    {
+        width:100%;
+    }
+    .icons
+    {
+        width:100%;
+    }
+
+	/* Media query for tablet layout targets screen size with a minimum width of 660px. */
+	@media only screen and (min-width: 660px){
+	
+	/* style specifies a horizontal display for navigation links */
+	
+	.first
+	{
+		padding-top:15px;
+		text-indent:30px;
+	}
+	nav li{
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right:1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+		white-space: nowrap;
+	}
+	
+	nav li a
+	{
+		font-size:20px;
+	}
+	
+	/* style specifies clear and top margin properties for the main element */
+	main{
+		/*clear: left;*/
+		margin-top: 4em;
+	}
+	
+	/* style specifies to hide the mobile class */
+	.mobile{
+		display: none;
+	}
+	
+	/* style specifies to display the desktop class */
+	.desktop{
+		display: inline;
+	}
+	
+	.bhd{
+		display: inline-block;
+	}
+	
+	/* style specifies a display, float, and padding for the equip class */
+	.equip{
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+	}
+	
+	/* style specifies a display, list style position, and bottom margin for the items class */
+	.items{
+		display: block;
+		list-style-position: inside;
+		margin-bottom: 5em;
+	}
+	
+	/* style specifies to display the tablet class */
+	.tablet{
+		display: block;
+	}
+	
+	/* style specifies a font weight and top margin for description list items */
+	
+	dt{
+		font-weight: bold;
+		margin-top: 0.7em;
+	}
+	label{
+        float:left;
+        padding-right:0.5em;
+        text-align:right;
+        width:11em;
+    }
+    .sdimg
+    {
+        width:27%;
+        float:left;
+	}
+    .sdpara
+    {
+        width:65%;
+        float:right;
+        background-color:#ffffff;
+        box-shadow: 10px -10px 8px #cccccc;
+        padding-left:50px;
+        margin-bottom:50px;
+    }
+     #sec1, #sec2, #sec3, #sec4, #sec5
+    {
+        margin-left:10px;
+        margin-right:10px;
+    }
+    .aboutimg
+    {
+        width:100%;
+    }
+    .content
+    {
+        padding-left:20px;
+        padding-right:20px;
+    }
+	#whoweare
+    {
+        text-align:center;
+	}
+    footer
+    {
+        width:98.5%;
+        overflow:auto;
+    }
+    .copyright
+    {
+        width:59%;
+        float:left;
+    }
+    .icons
+    {
+        width:38%;
+        float:right;
+    }
+}
+	/* Media query for desktop layout targets screen size with a minimum width of 830px. */
+	@media only screen and (min-width: 830px){
+		
+	/* style specifies a width for container */
+	
+	.first
+	{
+		padding-top:15px;
+		text-indent:30px;
+	}
+	 nav
+	 {
+		 padding-bottom:30px;
+	 }
+	/* style specifies margin and padding for the unordered list within the nav */
+	nav ul{
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+	
+	/* style for navigation list items specifies a border radius, border, margin, width, and padding */
+	nav li{
+		border-radius: 0;
+		border-top: solid #000000;
+		border-bottom: solid #000000;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+	}
+	
+	/* style for navigation links specifies display and padding */
+	nav li a{
+		display: inline-block;
+		padding: 0.3em;
+	}
+	
+	aside
+	{
+		float:right;
+		margin-right:6%;
+		margin-top:10%;
+	}
+	
+	main{
+		border-style: none;
+        width:100%;
+		/*box-shadow: 0.5em 0.5em 0.5em #404040;*/
+		/*margin-left: 2em;
+		margin-right: 2em;*/
+		margin-top:1em;
+		/*padding:2em;*/
+	}
+	.sdimg
+    {
+        width:30%;
+        float:left;
+	}
+    .sdpara
+    {
+        width:65%;
+        float:right;
+        background-color:#ffffff;
+        box-shadow: 10px -10px 8px #cccccc;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #sec1, #sec2, #sec3, #sec4
+    {
+        padding-bottom:15px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    #sec2, #sec3, #sec4
+    {
+        border-bottom:3px solid #646464;
+    }
+    #sec2, #sec4
+    {
+        background-color:rgba(104, 112, 255, 0.2);
+        overflow:auto;
+    }
+    #sec3
+    {
+        background-color:rgba(255, 144, 144, 0.2);
+        overflow:auto;
+    }
+    #sec5
+    {
+        background-color:rgba(255, 144, 144, 0.2);
+        overflow:auto;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    section img
+    {
+        box-shadow:10px -10px 5px #cccccc;
+    }
+    .aboutimg
+    {
+        width:40%;
+        float:left;
+        margin-right:30px;
+    }
+    #whoweare
+    {
+        text-align:left;
+	}
+    .container{
+		width:80%;
+        margin:0 auto 0 auto;
+	}
+    .content
+    {
+        width:80%;
+        margin:0 auto 0 auto;
+    }
+    footer
+    {
+        width:99%;
+        overflow:auto;
+    }
+    .copyright
+    {
+        width:59%;
+        float:left;
+    }
+    .icons
+    {
+        width:38%;
+        float:right;
+    }
+}
+	
+	/* style specifies border, box shadow, and margins for the main element */
+	
+	
+	/* style specifies left and right padding for paragraph elements within the main element */
+	main p{
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+	}
+	
+	/* style specifies a bottom margin for the items class */
+	.items{
+		margin-bottom: 6em;
+	}
+	
+	/* style rules for pseudo-classes */
+	nav li a:link{
+		color: #FFFFFF;
+	}
+	
+	nav li a:visited{
+		color: #FFFF99;
+	}
+	
+	nav li a:hover{
+		color: #ffa5d2;
+		
+	}
+    nav li a:active
+    {
+        color:#6600cc;
+    }
+	
+	
+	
+		
+
+
+
+
+    

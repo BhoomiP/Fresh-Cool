@@ -1,0 +1,106 @@
+/* Style sheet created by: Bhoomika Patel, 25/11/2016  */
+table, th, td
+    {
+        border:solid 2px #335294;
+        border-collapse:collapse;
+        padding:0.5em;
+    }
+	 caption
+    {
+        font-size:1.5em;
+        padding-bottom:1em;
+		font-style: Italic;
+    }
+	.input, select, textarea
+	{
+		display:block;
+	}
+	.input, select
+	{
+		height:25px;
+	}
+	select
+	{
+		width:175px;
+	}
+	input, select, textarea
+	{
+		margin-bottom:1.5em;
+	}
+	label
+	{
+		display:block;
+		
+	}
+	.ifrm
+	{
+		border:2px solid #335294;
+		padding:20px 0px 20px 15px;
+		background-color:rgba(255, 255, 255, 0.6);
+		margin-top: 1em;
+        overflow:auto;
+	}
+	.btn
+	{
+		background-color:#335294;
+		color:#ffffff;
+		width:100px;
+		height:30px;
+	}
+	
+	form ul{
+		list-style-type: none;
+	}
+	
+	.chkbx{
+		display: inline-block;
+	}
+	
+	@media only screen and (min-width:481px) 
+	{
+		label
+		{
+			padding-right:0.2em;
+		}
+		
+	}
+@media only screen and (min-width:769px){
+    #container
+    {
+        width:90%;
+    }
+    table, th, td
+    {
+        border:solid 2px #335294;
+        border-collapse:collapse;
+        padding:0.5em;
+    }
+    th
+    {
+        background-color:#335294;
+        color:#ffffff;
+    }
+
+    table 
+    {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:1em;
+    }
+    .contactform
+    {
+        border:1px solid #335294;
+        width:48%;
+        float:left;
+        padding:10px;
+    }
+    .contactimg
+    {
+        width:48%;
+        float:left;
+    }
+
+}
+tr:nth-child(even) {background-color: rgba(51, 82, 148, 0.1)}
+tr:hover {background-color: rgba(51, 82, 148, 0.30)}

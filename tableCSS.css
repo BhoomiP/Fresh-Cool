@@ -1,0 +1,114 @@
+﻿body {
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table 
+{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table, tr,th,td 
+{
+    border-collapse:collapse;
+    border:solid 0.1em #000000;
+    padding:1em 0.5em 1em 0.5em;
+}
+td 
+{
+    text-align:center;
+}
+caption 
+{
+    font-size:2em;
+    padding:1em;
+}
+.frstrw
+{
+    background-color:#335294;
+    color:#ffffff;
+}
+
+.other:hover
+{
+    background-color: #ffffff;
+    color:#335294;
+}
+tr:nth-child(even) 
+{
+    background-color: #dbe4fe;
+}
+
+.input, select, textarea
+{
+    display:block;
+}
+.input, select
+{
+    height:25px;
+}
+select
+{
+    width:175px;
+}
+input, select, textarea
+{
+    margin-bottom:1.5em;
+}
+label
+{
+    display:block;
+    
+}
+.ifrm
+{
+    border:2px solid #335294;
+    padding:20px 0px 20px 15px;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+.btn
+{
+    background-color:#335294;
+    color:#ffffff;
+    width:100px;
+    height:30px;
+}
+.halfcont
+    {
+        width:100%;
+        float:left;
+        margin-left:-10px;
+        margin-bottom:10px;
+    }
+
+@media only screen and (min-width:481px) 
+{
+    label
+    {
+        float:left;
+        padding-right:0.5em;
+        
+        width:11em;
+    }
+    .halfcont
+    {
+        width:45%;
+        float:left;
+    }
+}
+
+@media only screen and (min-width:481px) 
+{
+    .halfcont
+    {
+        width:46%;
+        float:left;
+        margin:5px;
+    }
+}
